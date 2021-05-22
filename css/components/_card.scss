@@ -89,18 +89,18 @@
         
         &--1 {
             background-image: linear-gradient(to right bottom, #b88900, #efb810), 
-            url(../../img/beers.jpeg);
+            url(../../img/beers-min.jpeg);
             
         }
 
         &--2 {
             background-image: linear-gradient(to right bottom, $primary, $terciary), 
-            url(../../img/mo.jpeg);
+            url(../../img/mo-min.jpeg);
         }
 
         &--3 {
             background-image: linear-gradient(to right bottom, #f74780, #f74780), 
-            url(../../img/h.jpeg);
+            url(../../img/h-min.jpeg);
         }
     }
 

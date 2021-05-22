@@ -107,42 +107,42 @@
 
 
 
-.book {
-    background-image: linear-gradient(105deg, 
-                                    rgba($color-white, .9) 0%,
-                                    rgba($color-white, .9) 50%,
-                                    transparent 50%) ,
-                                    url(../../assets/back.jpg);
-    background-size: 100%;
-    border-radius: 3px;
-    box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
+// .book {
+//     background-image: linear-gradient(105deg, 
+//                                     rgba($color-white, .9) 0%,
+//                                     rgba($color-white, .9) 50%,
+//                                     transparent 50%) ,
+//                                     url(../../assets/back.jpg);
+//     background-size: 100%;
+//     border-radius: 3px;
+//     box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
 
-    @include respond(tabLand) {
-        background-image: linear-gradient(105deg, 
-        rgba($color-white, .9) 0%,
-        rgba($color-white, .9) 65%,
-        transparent 65%) ,
-        url(../../assets/back.jpg);
-        background-size: cover;
-    }
+//     @include respond(tabLand) {
+//         background-image: linear-gradient(105deg, 
+//         rgba($color-white, .9) 0%,
+//         rgba($color-white, .9) 65%,
+//         transparent 65%) ,
+//         url(../../assets/back.jpg);
+//         background-size: cover;
+//     }
 
-    @include respond(tablet) {
-        background-image: linear-gradient(to right, 
-        rgba($color-white, .9) 0%,
-        rgba($color-white, .9) 100%),
-        url(../../assets/back.jpg);
-    }
+//     @include respond(tablet) {
+//         background-image: linear-gradient(to right, 
+//         rgba($color-white, .9) 0%,
+//         rgba($color-white, .9) 100%),
+//         url(../../assets/back.jpg);
+//     }
 
-    &__form {
-        width: 50%;
-        padding: 6rem;
+//     &__form {
+//         width: 50%;
+//         padding: 6rem;
 
-        @include respond(tabLand) {
-            width: 65%;
-        }
+//         @include respond(tabLand) {
+//             width: 65%;
+//         }
 
-        @include respond(tablet) {
-            width: 70%;
-        }
-    }
-}
+//         @include respond(tablet) {
+//             width: 70%;
+//         }
+//     }
+// }
