@@ -365,7 +365,7 @@ body {
 
 @media (max-width: 56.25em) {
   .row [class^="col-1-of-6"] {
-    width: 49% !important;
+    width: 48% !important;
   }
 }
 
@@ -1471,6 +1471,12 @@ body {
 @media only screen and (min-width: 56.25em) {
   .section-feature {
     margin-top: -10rem;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  .section-feature {
+    margin-top: 4rem;
   }
 }
 
