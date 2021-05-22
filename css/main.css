@@ -1579,8 +1579,8 @@ body {
 
 body {
   height: 100%;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(4, 75, 217, 0.7)), to(rgba(2, 51, 115, 0.7))), url(../../img/back-min.jpg);
-  background-image: linear-gradient(to right bottom, rgba(4, 75, 217, 0.7), rgba(2, 51, 115, 0.7)), url(../../img/back-min.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(4, 75, 217, 0.7)), to(rgba(2, 51, 115, 0.7))), url(../../img/back.jpg);
+  background-image: linear-gradient(to right bottom, rgba(4, 75, 217, 0.7), rgba(2, 51, 115, 0.7)), url(../../img/back.jpg);
   background-size: cover;
   background-position: top;
 }
