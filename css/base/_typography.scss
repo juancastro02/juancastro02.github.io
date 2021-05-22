@@ -25,7 +25,7 @@
         letter-spacing: 2.5rem;
     
         animation-name: moveInLeft;
-        animation-duration: 1s;
+        animation-duration: 2s;
         animation-timing-function: ease-out;
     
         /* animation-delay: 3s;
@@ -45,7 +45,7 @@
         font-weight: 700;
         letter-spacing: 1.75rem;
     
-        animation: moveInRight 1s ease-out;
+        animation: moveInRight 2s ease-out;
         margin-bottom: 6rem;
 
         @include respond(phone){
