@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+span {
+    background: white !important;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0rem;
+    
+}
+

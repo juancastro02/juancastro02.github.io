@@ -1,0 +1,123 @@
+
+
+@import "abstracts/variables";
+@import "abstracts/animations";
+@import "abstracts/mixins";
+
+@import "abstracts/utilities";
+
+@import "base/base";
+
+@import "layout/header";
+@import "layout/grid";
+@import "layout/nav";
+@import "layout/footer";
+
+@import "base/typography";
+
+@import "components/button";
+@import "components/compositions";
+@import "components/features";
+@import "components/card";
+@import "components/form";
+
+@import "pages/home";
+
+// h1 {
+
+
+//     text-align: left;
+//     margin-left: 2em;
+//     font-size: 4rem; 
+//     color: white;
+// } 
+
+// .s1 { 
+//     background: #023373;
+//     background-size: cover;
+
+// }
+
+.fp-controlArrow {
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    margin-top: -38px;
+}
+.fp-controlArrow.fp-prev {
+    left: 100px;
+    width: 0;
+    border-width: 15.5px 15px 15.5px 0;
+    border-color: transparent #fff transparent transparent;
+
+        @media (max-width: 600px) {
+            left: 20px; 
+            z-index: -100;
+        }
+
+}
+.fp-controlArrow.fp-next {
+    right: 100px;
+    border-width: 15.5px 0 15.5px 15px;
+    border-color: transparent transparent transparent #fff;
+
+    @media (max-width: 600px) {
+        
+        right: 20px;
+        z-index: -100;
+    }
+}
+
+body {
+    height: 100%;
+    background-image: linear-gradient(to right bottom, rgba($primary, 0.7), rgba($terciary, 0.7) ), url(../../img/back.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+// .s2 {
+//     background:transparent;
+//     background-size: cover;
+
+// }
+
+// .s3 {
+//     background: #023373;
+//     background-size: cover;
+
+// }
+// .s4 {
+//     background: #023373;
+//     background-size: cover;
+
+// }
+// .s5 {
+//     background: #023373;
+//     background-size: cover;
+
+// }
+
+// .s6 {
+//     background: #023373;
+//     background-size: cover;
+
+// }
+
+// .s7 {
+//     background: #023373;
+//     background-size: cover;
+
+// }
+
+
+
+
+// span {
+
+//     background: white !important;
+    
+// }

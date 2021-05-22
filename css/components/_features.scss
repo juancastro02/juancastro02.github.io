@@ -1,0 +1,75 @@
+.feature-box {
+    background-color: rgba(white, .3);
+    font-size: 1rem;
+    margin-top: 5rem;
+    padding-top: 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15) ;
+    transition: all .2s;
+    height: 15rem;
+
+    @include respond(tablet){
+        // width: 40%;
+        height: 10rem;
+        margin-top: 0rem;
+    }
+
+    &__icon {
+        font-size: 6rem;
+        width: 12rem;
+        // margin-bottom: .5rem;
+        background-clip:content-box;
+        display: inline-block;
+        background-image: linear-gradient(to right ,$primary, $terciary );
+        -webkit-background-clip: text;
+        color: transparent;
+        ;
+
+        @include respond(tablet){
+            margin-bottom: 0;
+            width: 8rem;
+        }
+
+    }
+
+
+
+
+    &:hover {
+        transform: translateY(-1.5rem) scale(1.1);
+    }
+
+} 
+
+.dark {
+        filter: hue-rotate(0deg) brightness(-00%);
+
+}
+
+.logo-work {
+    width: 2rem;
+    height: 1rem;
+    color: transparent;
+    ;
+
+    @include respond(tablet){ 
+        margin-bottom: 0;
+    }
+}
+
+// .ancho {
+//     width: 15rem;
+//     margin-top: -10rem;
+// }
+
+.log {
+    height: 70px;
+    width: 20px;
+    // padding-left: 10rem;
+    // box-shadow: 0 1.5rem 4rem rgba($color-black, .15) ;
+}
+
+.small {
+    width: 3rem;
+}
