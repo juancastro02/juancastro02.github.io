@@ -55,6 +55,8 @@
     border-color: transparent #fff transparent transparent;
 
         @media (max-width: 600px) {
+            border-color: transparent transparent transparent transparent;
+
             left: 20px; 
             z-index: -100;
         }
@@ -66,58 +68,85 @@
     border-color: transparent transparent transparent #fff;
 
     @media (max-width: 600px) {
+    border-color: transparent transparent transparent transparent;
         
         right: 20px; 
         z-index: -100;
     }
 }
-
+ 
 body {
     height: 100%;
     background-image: linear-gradient(to right bottom, rgba($primary, 0.7), rgba($terciary, 0.7) ), url(../../img/back.jpg);
     background-size: cover;
     background-position: top;
+    // visibility: hidden;
 }
 
-// .s2 {
-//     background:transparent;
-//     background-size: cover;
+#contendor_carga {
+    background: $primary;
+    z-index: 10000;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: table;
+    transition: all 1s;
 
-// }
-
-// .s3 {
-//     background: #023373;
-//     background-size: cover;
-
-// }
-// .s4 {
-//     background: #023373;
-//     background-size: cover;
-
-// }
-// .s5 {
-//     background: #023373;
-//     background-size: cover;
-
-// }
-
-// .s6 {
-//     background: #023373;
-//     background-size: cover;
-
-// }
-
-// .s7 {
-//     background: #023373;
-//     background-size: cover;
-
-// }
+}
 
 
 
-
-// span {
-
-//     background: white !important;
+.carga {
+    // background-color: red;
     
-// }
+    // border: 15px solid green;
+    // border-top-color: #f4266A ; 
+    // border-top-style: groove ;
+    // height: 100px;
+    // width: 100px;
+    // border-radius: 100%;
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    // margin: auto;
+    // z-index: 10000;
+
+
+
+    // font-family: Lato;
+    float: left;
+    font-size: 8rem;
+    color: #fff;
+    position: relative;
+    top: 20%;
+    right: -50%;
+    transform: translate(-50%, 50%);
+    font-weight: 400;
+    @media (max-width: 600px) {
+        
+        right: -55%;
+    }
+
+
+    .carga__span {
+        position: absolute;
+        right: 0;
+        width: 0;
+        background: $primary  !important;
+        border-left: 1px solid #000; 
+        animation: maquina 3s infinite alternate steps(6);
+    }
+
+}
+
+@keyframes maquina {
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: 0%;
+    }
+}
